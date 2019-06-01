@@ -1,0 +1,25 @@
+HKCR
+{
+	Dictionary.Object.1 = s 'Dictionary Class'
+	{
+		CLSID = s '{001A7733-AD05-4009-BF22-798BA9D52036}'
+	}
+	Dictionary.Object = s 'Dictionary Class'
+	{
+		CLSID = s '{001A7733-AD05-4009-BF22-798BA9D52036}'
+		CurVer = s 'Dictionary.Object.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {001A7733-AD05-4009-BF22-798BA9D52036} = s 'Dictionary Class'
+		{
+			ProgID = s 'Dictionary.Object.1'
+			VersionIndependentProgID = s 'Dictionary.Object'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{AAF161AC-2BC3-40F1-93F7-D2252A88B00D}'
+		}
+	}
+}

@@ -1,0 +1,2 @@
+DictCtrl.exe
+pause

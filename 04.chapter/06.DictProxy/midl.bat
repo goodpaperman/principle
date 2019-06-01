@@ -1,0 +1,2 @@
+midl dict.idl
+pause

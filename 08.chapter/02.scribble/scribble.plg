@@ -1,0 +1,78 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Scribble - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP152.bat" with contents
+[
+@echo off
+makehelp.bat
+]
+Creating command line "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP152.bat"
+Creating command line "rc.exe /l 0x409 /fo".\Debug/scribble.res" /d "_DEBUG" /d "_AFXDLL" "E:\codes\mfc\11.Panaiming.COM principle & apply\08.chapter\02.scribble\scribble.rc"" 
+Building help file...
+Building Win32 Help files
+
+已复制         1 个文件。
+已复制         1 个文件。
+
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP153.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp".\Debug/scribble.pch" /Yu"stdafx.h" /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"E:\codes\mfc\11.Panaiming.COM principle & apply\08.chapter\02.scribble\childfrm.cpp"
+"E:\codes\mfc\11.Panaiming.COM principle & apply\08.chapter\02.scribble\ipframe.cpp"
+"E:\codes\mfc\11.Panaiming.COM principle & apply\08.chapter\02.scribble\mainfrm.cpp"
+"E:\codes\mfc\11.Panaiming.COM principle & apply\08.chapter\02.scribble\pendlg.cpp"
+"E:\codes\mfc\11.Panaiming.COM principle & apply\08.chapter\02.scribble\scribble.cpp"
+"E:\codes\mfc\11.Panaiming.COM principle & apply\08.chapter\02.scribble\scribdoc.cpp"
+"E:\codes\mfc\11.Panaiming.COM principle & apply\08.chapter\02.scribble\scribitm.cpp"
+"E:\codes\mfc\11.Panaiming.COM principle & apply\08.chapter\02.scribble\scribvw.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP153.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP154.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp".\Debug/scribble.pch" /Yc"stdafx.h" /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"E:\codes\mfc\11.Panaiming.COM principle & apply\08.chapter\02.scribble\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP154.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP155.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:".\Debug/scribble.pdb" /debug /machine:I386 /out:".\Debug/scribble.exe" 
+".\Debug\childfrm.obj"
+".\Debug\ipframe.obj"
+".\Debug\mainfrm.obj"
+".\Debug\pendlg.obj"
+".\Debug\scribble.obj"
+".\Debug\scribdoc.obj"
+".\Debug\scribitm.obj"
+".\Debug\scribvw.obj"
+".\Debug\stdafx.obj"
+".\Debug\scribble.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP155.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+stdafx.cpp
+Compiling...
+childfrm.cpp
+ipframe.cpp
+mainfrm.cpp
+pendlg.cpp
+scribble.cpp
+scribdoc.cpp
+scribitm.cpp
+scribvw.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+scribble.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,10 @@
+; PointComp.def : Declares the module parameters for the DLL.
+
+LIBRARY      "PointComp"
+DESCRIPTION  'PointComp Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	DllCanUnloadNow PRIVATE
+	DllGetClassObject PRIVATE
+	DllRegisterServer PRIVATE

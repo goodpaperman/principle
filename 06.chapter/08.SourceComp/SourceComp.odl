@@ -1,0 +1,42 @@
+// SourceComp.odl : type library source for SourceComp.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (SourceComp.tlb).
+
+[ uuid(62769560-EF26-4315-B9CA-D1117FF61693), version(1.0) ]
+library SourceComp
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CSourceCompDoc
+	
+	[ uuid(2D7A295F-864D-4776-B1D8-B5F968CD233B) ]
+	dispinterface ISourceComp
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CSourceCompDlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CSourceCompDlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CSourceCompDoc
+	
+	[ uuid(F116A612-0890-4AC2-9A33-EB43A9ADD8F7) ]
+	coclass SourceComp
+	{
+		[default] dispinterface ISourceComp;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

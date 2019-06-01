@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ClipSamp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ClipSamp.res" /d "_DEBUG" /d "_AFXDLL" "E:\codes\mfc\11.Panaiming.COM principle & apply\09.chapter\01.clipsamp\ClipSamp.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP14B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ClipSamp.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\codes\mfc\11.Panaiming.COM principle & apply\09.chapter\01.clipsamp\ChildFrm.cpp"
+"E:\codes\mfc\11.Panaiming.COM principle & apply\09.chapter\01.clipsamp\ClipSamp.cpp"
+"E:\codes\mfc\11.Panaiming.COM principle & apply\09.chapter\01.clipsamp\ClipSampDoc.cpp"
+"E:\codes\mfc\11.Panaiming.COM principle & apply\09.chapter\01.clipsamp\ClipSampView.cpp"
+"E:\codes\mfc\11.Panaiming.COM principle & apply\09.chapter\01.clipsamp\dib.cpp"
+"E:\codes\mfc\11.Panaiming.COM principle & apply\09.chapter\01.clipsamp\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP14B.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP14C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ClipSamp.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\codes\mfc\11.Panaiming.COM principle & apply\09.chapter\01.clipsamp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP14C.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP14F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ClipSamp.pdb" /debug /machine:I386 /out:"Debug/ClipSamp.exe" /pdbtype:sept 
+".\Debug\ChildFrm.obj"
+".\Debug\ClipSamp.obj"
+".\Debug\ClipSampDoc.obj"
+".\Debug\ClipSampView.obj"
+".\Debug\dib.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ClipSamp.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP14F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+ClipSamp.cpp
+ClipSampDoc.cpp
+ClipSampView.cpp
+dib.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ClipSamp.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

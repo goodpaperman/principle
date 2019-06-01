@@ -1,0 +1,65 @@
+// SourceComp.odl : type library source for SourceComp.dll
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (SourceComp.tlb).
+
+[ uuid(B22682C9-61E1-4BCE-8FB5-CF13F999C775), version(1.0) ]
+library SourceComp
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+
+
+	//  Primary dispatch interface for CSourceObj
+	
+	[ uuid(F1C14DD3-0351-4002-8425-87E2AE8203D6) ]
+	dispinterface ISourceObj
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CSourceObj)
+			[id(1)] long MyProperty;
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CSourceObj)
+			//}}AFX_ODL_METHOD
+
+	};
+	
+	
+	[ uuid(428CAFF7-8B7D-4d16-B85C-52046E4D06EE) ]
+	dispinterface IEventSet
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CSourceObj)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CSourceObj)
+			[id(0)] void PropChanged(long nInt);
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CSourceObj
+
+	[ uuid(9E4874BE-FD1B-4FD1-A678-492050CD2FE8) ]
+	coclass SourceObj
+	{
+		[default] dispinterface ISourceObj;
+		[default,source] dispinterface IEventSet; 
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

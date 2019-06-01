@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PointClient - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/PointClient.res" /d "_DEBUG" /d "_AFXDLL" "E:\codes\mfc\11.Panaiming.COM principle & apply\11.chapter\04.PointClient\PointClient.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP17F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PointClient.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"E:\codes\mfc\11.Panaiming.COM principle & apply\11.chapter\04.PointClient\PointClient.cpp"
+"E:\codes\mfc\11.Panaiming.COM principle & apply\11.chapter\04.PointClient\PointClientDlg.cpp"
+"E:\codes\mfc\11.Panaiming.COM principle & apply\11.chapter\04.PointClient\pointcomp.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP17F.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP180.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/PointClient.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"E:\codes\mfc\11.Panaiming.COM principle & apply\11.chapter\04.PointClient\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP180.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP181.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/PointClient.pdb" /debug /machine:I386 /out:"Debug/PointClient.exe" /pdbtype:sept 
+".\Debug\PointClient.obj"
+".\Debug\PointClientDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\PointClient.res"
+".\Debug\pointcomp.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP181.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+PointClient.cpp
+PointClientDlg.cpp
+pointcomp.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PointClient.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

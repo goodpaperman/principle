@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SourceComp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP15D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Debug/SourceComp.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\codes\mfc\11.Panaiming.COM principle & apply\06.chapter\05.SourceComp\SourceComp.cpp"
+"E:\codes\mfc\11.Panaiming.COM principle & apply\06.chapter\05.SourceComp\SourceObj.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP15D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP15E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /Fp"Debug/SourceComp.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\codes\mfc\11.Panaiming.COM principle & apply\06.chapter\05.SourceComp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP15E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP15F.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/SourceComp.pdb" /debug /machine:I386 /def:".\SourceComp.def" /out:"Debug/SourceComp.dll" /implib:"Debug/SourceComp.lib" /pdbtype:sept 
+".\Debug\SourceComp.obj"
+".\Debug\SourceObj.obj"
+".\Debug\StdAfx.obj"
+".\Debug\SourceComp.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP15F.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+SourceObj.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+SourceComp.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+SourceComp.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

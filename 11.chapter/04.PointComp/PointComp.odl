@@ -1,0 +1,47 @@
+// PointComp.odl : type library source for PointComp.dll
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (PointComp.tlb).
+
+[ uuid(E4914EF2-D4C5-4D1F-8928-A285107F7C51), version(1.0) ]
+library PointComp
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+
+
+	//  Primary dispatch interface for CPointObj
+	
+	[ uuid(E319392E-413A-4B04-A946-5EAFBFFECD97) ]
+	dispinterface IPointObj
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CPointObj)
+			[id(1)] long x;
+			[id(2)] long y;
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CPointObj)
+			[id(3)] void MoveTo(long newX, long newY);
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CPointObj
+
+	[ uuid(3C591B21-1F13-101B-B826-00DD01103DE2) ]
+	coclass PointObj
+	{
+		[default] dispinterface IPointObj;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

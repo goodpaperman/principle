@@ -1,0 +1,46 @@
+// PointComp.odl : type library source for PointComp.dll
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (PointComp.tlb).
+
+[ uuid(57FE7127-74B9-46DE-ACCD-547110EB0C9C), version(1.0) ]
+library PointComp
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+    [
+        uuid(3C591B25-1F13-101B-B826-00DD01103DE2), 
+        helpstring("Point interface."), 
+		dual
+    ]
+    interface IPoint : IDispatch
+    {
+        [propget, helpstring("Returns x coordinate.")]
+        HRESULT x([out, retval] int* retval); 
+        [propput, helpstring("Returns and sets x coordinate.")] 
+        HRESULT x([in] int Value); 
+    
+        [propget, helpstring("Returns y coordinate.")]
+        HRESULT y([out, retval] int* retval); 
+        [propput, helpstring("Returns and sets y coordinate.")]
+        HRESULT y([in] int Value);
+            
+        [helpstring("Move Point To.")]
+        HRESULT MoveTo([in] int newX, [in] int newY);  
+    }
+    
+    [
+        uuid(3C591B21-1F13-101B-B826-00DD01103DE2), 
+        helpstring("Point Class"), 
+		appobject
+    ]
+    coclass Point
+    {
+        dispinterface IPoint; 
+    }
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

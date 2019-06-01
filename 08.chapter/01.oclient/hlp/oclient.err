@@ -1,0 +1,46 @@
+Microsoft (R) Help Compiler
+HCRTF 4.03.0002
+Copyright (c) Microsoft Corp 1990 - 1995. All rights reserved.
+OCLIENT.hpj
+    HC1002: Note: 
+	Using existing phrase table: OCLIENT.ph.
+    HC4014: Warning: 
+	There is text after the closing brace in the RTF file.
+    HC4014: Warning: 
+	There is text after the closing brace in the RTF file.
+    HC3025: Warning: topic #3 of E:\codes\mfc\11.Panaiming.COM principle & apply\08.chapter\01.oclient\hlp\afxcore.rtf : 
+	Jump to undefined Topic ID: "HID_OLE_EDIT_LINKS".
+    HC3025: Warning: topic #3 of E:\codes\mfc\11.Panaiming.COM principle & apply\08.chapter\01.oclient\hlp\afxcore.rtf : 
+	Jump to undefined Topic ID: "HID_EDIT_PASTE_LINK".
+    HC1010: Note: 
+	The following mapped Topic IDs were not used in any topic:
+	HIDP_AFXOLEINIT_FAILED
+	HID_OBJECT_TRACK_SIZE
+	HID_OBJECT_CHANGEICON
+	HID_OBJECT_POPUP_MENU
+	HID_EDIT_CLONE
+	HID_OBJECT_DISPLAYASICON
+	HIDP_CLIPBOARD_CUT_FAILED
+	HID_OBJECT_RESETSIZE
+	HIDP_CLIPBOARD_ZERO_SIZE
+	HIDP_CLIPBOARD_COPY_FAILED
+	HIDP_BUSY
+	HID_CANCEL_INPLACE
+	HIDR_OCLIENTTYPE_CNTR_IP
+	HIDP_SAVEINCOMPLETE
+	HIDP_GET_FROM_CLIPBOARD_FAILED
+	HID_OBJECT_DISPLAYCONTENT
+	HIDR_OCLIENTTYPE
+	HID_OLE_CHANGE_SOURCE
+	HIDP_FAILED_TO_CREATE
+70	Topics
+45	Jumps
+16	Keywords
+18	Bitmaps
+
+
+Created E:\codes\mfc\11.Panaiming.COM principle & apply\08.chapter\01.oclient\hlp\OCLIENT.hlp, 37,220 bytes
+Bitmaps: 4,918 bytes
+Phrase+Zeck compression decreased help file by 13,438 bytes.
+Compile time: 0 minutes, 0 seconds
+2 notes, 4 warnings

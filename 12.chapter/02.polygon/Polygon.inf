@@ -1,0 +1,16 @@
+[version]
+  signature = "$ CHICAGO $"
+  AdvancedINF = 2.0
+[Add.Code]
+  polgon.dll = polygon.dll 
+  atl.dll = atl.dll
+[atl.dll]
+  file-win32-x86 = thiscab
+  FileVersion = 3,00,0,8166
+  DestDir = 11
+  RegisterServer = yes 
+[polygon.dll]
+  file-win32-x86 = thiscab
+  clsid = {2885EE05-A26B-11D1-B49B-00C04F98EFE0}
+  FileVersion = 1,0,0,1
+  RegisterServer = yes 

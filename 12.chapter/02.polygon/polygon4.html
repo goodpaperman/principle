@@ -1,0 +1,26 @@
+<HTML>
+<HEAD>
+<TITLE>ATL 3.0 test page for object PolyCtrl</TITLE>
+</HEAD>
+
+<BODY>
+<OBJECT ID = "PolyCtl"
+ CLASSID = "CLSID:2885EE05-A26B-11D1-B49B-00C04F98EFE0"
+ codebase = "http://webserver/Polygon.cab"
+ ALIGN = "CENTER" WIDTH = 200 HEIGHT = 200>
+	<PARAM NAME = "LPKPath" VALUE = "MyPage.lpk"> 
+</OBJECT>
+
+<SCRIPT LANGUAGE="VBScript">
+<!--
+Sub PolyCtl_ClickIn(x, y) 
+    PolyCtl.Sides = PolyCtl.Sides + 1 
+End Sub 
+
+Sub PolyCtl_ClickOut(x, y)
+    PolyCtl.Sides = PolyCtl.Sides - 1
+End Sub
+-->
+</SCRIPT>
+</BODY>
+</HTML>

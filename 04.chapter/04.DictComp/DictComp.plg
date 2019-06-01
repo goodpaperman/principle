@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DictComp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP256.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/DictComp.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\codes\mfc\11.Panaiming.COM principle & apply\04.chapter\04.DictComp\DictComp.cpp"
+"E:\codes\mfc\11.Panaiming.COM principle & apply\04.chapter\04.DictComp\Dictionary.cpp"
+"E:\codes\mfc\11.Panaiming.COM principle & apply\04.chapter\04.DictComp\Factory.cpp"
+"E:\codes\mfc\11.Panaiming.COM principle & apply\04.chapter\04.DictComp\Registry.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP256.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP257.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/DictComp.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\codes\mfc\11.Panaiming.COM principle & apply\04.chapter\04.DictComp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP257.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP258.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comsupp.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DictComp.pdb" /debug /machine:I386 /out:"..\binex\DictComp.exe" /pdbtype:sept 
+".\Debug\DictComp.obj"
+".\Debug\Dictionary.obj"
+".\Debug\Factory.obj"
+".\Debug\Registry.obj"
+".\Debug\StdAfx.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP258.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+DictComp.cpp
+Dictionary.cpp
+Factory.cpp
+Registry.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+DictComp.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

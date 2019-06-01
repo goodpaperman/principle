@@ -1,0 +1,2 @@
+midl Dictionary.idl
+pause

@@ -1,0 +1,45 @@
+
+STDMETHODIMP COleDataSource::XDataObject::GetDataHere(
+	LPFORMATETC lpFormatEtc, LPSTGMEDIUM lpStgMedium)
+{
+	METHOD_PROLOGUE_EX(COleDataSource, DataObject)
+	ASSERT_VALID(pThis);
+
+	// these two must be the same
+	ASSERT(lpFormatEtc->tymed == lpStgMedium->tymed);
+	lpFormatEtc->tymed = lpStgMedium->tymed;    // but just in case...
+
+	// attempt to find match in the cache
+	AFX_DATACACHE_ENTRY* pCache = pThis->Lookup(lpFormatEtc, DATADIR_GET);
+	if (pCache == NULL)
+		return DATA_E_FORMATETC;
+
+	// handle cached medium and copy
+	if (pCache->m_stgMedium.tymed != TYMED_NULL)
+	{
+		// found a cached format -- copy it to dest medium
+		ASSERT(pCache->m_stgMedium.tymed == lpStgMedium->tymed);
+		if (!_AfxCopyStgMedium(lpFormatEtc->cfFormat, lpStgMedium,
+		  &pCache->m_stgMedium))
+			return DATA_E_FORMATETC;
+
+		// format was supported for copying
+		return S_OK;
+	}
+
+	SCODE sc = DATA_E_FORMATETC;
+	TRY
+	{
+		// attempt LPSTGMEDIUM based delay render
+		if (pThis->OnRenderData(lpFormatEtc, lpStgMedium))
+			sc = S_OK;
+	}
+	CATCH_ALL(e)
+	{
+		sc = COleException::Process(e);
+		DELETE_EXCEPTION(e);
+	}
+	END_CATCH_ALL
+
+	return sc;
+}

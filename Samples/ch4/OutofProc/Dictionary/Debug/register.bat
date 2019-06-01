@@ -1,0 +1,2 @@
+Dictionary.exe -UnRegServer
+pause
